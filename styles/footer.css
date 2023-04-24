@@ -1,0 +1,63 @@
+.rodape-alura{
+    font-family: var(--font--subtitulos--);
+    background-color: var(--cor--fundotela--);
+    border-top: 0.1px solid var(--cor--rodape--subtitulos--) ;
+}
+.rodape-grupo{
+    margin: 24px;
+    padding-bottom:1.5em ;
+    font-size: 16px;
+    font-weight: 400;
+}
+.rodape-lista{
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+.rodape-alura{
+    display: flex;
+    
+}
+.rodape-grupo{
+    font-size: 24px;
+    margin: 3em 0.5em;
+}
+.rodape-lista {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4em;
+    margin: 3em 5em;
+    margin-right: 1.5em;
+    
+}
+
+.rodape-lista-itens{
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0;
+    gap: 10px;
+}
+.lista-itens-roda{
+    color: var(--cor--rodape--subtitulos--); 
+}
+.rodape-lista-itens a {
+    text-decoration: none;
+    color: var(--cor--rodape--texto--);
+}
+}
+@media screen and (min-width:1728px){
+.rodape-grupo{
+    margin: 3em 5em;
+    margin-left: 10em;
+    
+}
+.rodape-lista{
+    gap:10em;
+    border-left: 1px solid var(--cor--rodape--subtitulos--);
+    padding: 0 1em;
+}
+.lista-itens-rodape{
+    border-left: 1px solid var(--cor--rodape--subtitulos--);
+    padding:0 1em;
+}
+}
